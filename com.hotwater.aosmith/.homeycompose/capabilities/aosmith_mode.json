@@ -1,0 +1,14 @@
+{
+  "type": "enum",
+  "title": { "en": "Mode" },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "values": [
+    { "id": "eco", "title": { "en": "Eco (Hybrid)" } },
+    { "id": "heat_pump", "title": { "en": "Heat pump" } },
+    { "id": "electric", "title": { "en": "Electric" } },
+    { "id": "vacation", "title": { "en": "Vacation / away" } },
+    { "id": "guest", "title": { "en": "Guest" } }
+  ]
+}

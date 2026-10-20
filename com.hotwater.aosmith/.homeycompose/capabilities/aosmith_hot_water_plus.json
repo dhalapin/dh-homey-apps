@@ -1,0 +1,13 @@
+{
+  "type": "enum",
+  "title": { "en": "Hot Water+ level" },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "values": [
+    { "id": "off", "title": { "en": "Off" } },
+    { "id": "level1", "title": { "en": "Level 1" } },
+    { "id": "level2", "title": { "en": "Level 2" } },
+    { "id": "level3", "title": { "en": "Level 3" } }
+  ]
+}

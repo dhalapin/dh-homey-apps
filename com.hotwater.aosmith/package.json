@@ -1,0 +1,7 @@
+{
+  "name": "com.hotwater.aosmith",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial A. O. Smith iCOMM water heater app for Homey",
+  "main": "app.js"
+}

@@ -1,0 +1,32 @@
+{
+  "name": { "en": "Water Heater" },
+  "class": "waterheater",
+  "images": {
+    "small": "/drivers/water-heater/assets/images/AOS-WH-small.jpg",
+    "large": "/drivers/water-heater/assets/images/AOS-WH-large.jpg",
+    "xlarge": "/drivers/water-heater/assets/images/AOS-WH-xlarge.jpg"
+  },
+  "capabilities": ["target_temperature", "aosmith_mode", "measure_hot_water", "meter_power"],
+  "capabilitiesOptions": {
+    "target_temperature": { "min": 35, "max": 60, "step": 0.5 }
+  },
+  "platforms": ["local"],
+  "connectivity": ["cloud"],
+  "pair": [
+    { "id": "login",
+	  "template": "login_credentials",
+	  "options": {
+		  "logo": "/drivers/water-heater/assets/iCOMM.png",
+		  "title": {
+			  "en": "iCOMM Credentials"
+		  },
+		  "usernameLabel": { "en": "E-mail address" },
+          "usernamePlaceholder": { "en": "john@doe.com" },
+          "passwordLabel": { "en": "Password" },
+          "passwordPlaceholder": { "en": "Password" }
+	  }
+	},
+    { "id": "list_devices", "template": "list_devices", "navigation": { "next": "add_devices" } },
+    { "id": "add_devices", "template": "add_devices" }
+  ]
+}

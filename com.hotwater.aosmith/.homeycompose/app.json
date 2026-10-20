@@ -1,0 +1,29 @@
+{
+  "id": "com.hotwater.aosmith",
+  "version": "1.0.0",
+  "compatibility": ">=13.0.0",
+  "sdk": 3,
+  "brandColor": "#007934",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "A. O. Smith"
+  },
+  "description": {
+    "en": "Monitor and control A. O. Smith iCOMM water heaters."
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/AOS-small.png",
+    "large": "/assets/images/AOS-large.png"
+  },
+  "author": {
+    "name": "Daniel Halapin",
+    "email": "danielhalapin6@gmail.com"
+  }
+}
