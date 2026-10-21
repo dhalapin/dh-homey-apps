@@ -1,6 +1,6 @@
 # Homey Apps
 
-A collection of community-built apps for [Homey](https://homey.app), maintained by [Daniel Halapin](https://github.com/danielhalapin).
+A collection of community-built apps for [Homey](https://homey.app).
 
 > [!WARNING]
 > **These apps are provided "as is", without warranty of any kind, and may break at any time without warning.**
